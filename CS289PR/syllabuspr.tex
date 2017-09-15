@@ -1,0 +1,95 @@
+\documentclass{article}[11pt]
+\pagestyle{empty}
+\usepackage{fullpage}
+
+\setlength{\parindent}{0in}
+
+\usepackage{url}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
+\newcommand{\URL}[1]{{\footnotesize{\url{#1}}}}
+\newcommand{\HREF}[2]{{\footnotesize{\href{#1}{#2}}}}
+\newcommand{\MAIL}[1]{{\large{\href{mailto:#1}{#1}}}}
+
+\begin{document}
+\sf
+
+{\Large
+\begin{center}
+\textbf{CS289: Pseudorandomness}, \textbf{Winter 2016} \\
+\textbf{Monday/Wednesday 2--4}
+\end{center}
+}
+
+\section{Course Goals}
+The course will cover the basics as well as some of the state-of-the-art results in pseudoranodmness, explicit constructions in combinatorics, and their applications. The main goal is to introduce the many fascinating questions and ideas in pseudorandomness and to cover versatile tools that are useful in other areas such as discrete mathematics (e.g., expanders), algorithms (e.g., hashing, streaming algorithms), and cryptography (extractors, hardness vs randomness). %The core goals of the course are: 1) Share the many fascinating questions and ideas in pseudorandomness. 2) Cover a set of tools with applications across  Provide the necessary background to jump into cutting-edge research. 3) Provide enough material for people with interests in other areas such as discrete mathematics, combinatorics, or cryptography to use these versatile tools. 
+\section{Syllabus}
+The following is a tentative list of topics to be covered.
+\begin{itemize}
+\item Pseudorandomness: Why, what, and how? (2 lectures)
+\begin{itemize}
+\item Randomized algorithms. 
+\item Probabilistic method. 
+\item What is pseudorandomness?
+\end{itemize}
+\item Limited independence: The swiss-army knife. (2 lectures)
+\begin{itemize}
+\item Universal hashing, $k$-wise independence.
+\item Constructions, applications.
+\end{itemize}
+\item Error correcting codes (2 lectures)
+\begin{itemize}
+\item Small-bias spaces.
+\item Reed-Solomon codes.
+\end{itemize}
+\item Expander graphs (3 lectures)
+\begin{itemize}
+\item The many views of expansion.
+\item Applications of expanders.
+\item Zig-Zag product construction of expanders.
+\end{itemize}
+
+\item Extractors (2 lectures)
+\begin{itemize}
+\item Expanders beating the eigenvalue bound.
+\item Applications and connections to codes.
+\item Leftover hash lemma.
+\end{itemize}
+
+\item Hardness vs randomness (3 lectures)
+\begin{itemize}
+\item Why we believe derandomization is possible.
+\item Impagliazzo-Wigderson theorem.
+\end{itemize}
+
+\item Randomness to hardness (2 lectures)
+\begin{itemize}
+\item Polynomial identity testing.
+\item Kabanets-Impagliazzo result and analogues.
+\end{itemize}
+
+\item Pseudorandomness for small-space machines (3 lectures)
+\begin{itemize}
+\item Applications to streaming algorithms.
+\item INW PRG.
+\item Undirected st-connectivity in log-space 
+\end{itemize}
+
+%\item Pseudorandomness for linear tests (2 lectures)
+%\begin{itemize}
+%\item Fooling halfspaces
+%\end{itemize}
+\end{itemize}
+
+\section{Course Grading}
+The students will have to write lecture notes for the classes; this will account for (20\%) of the grade. Assignments (three) will account for (25\%) of the total grade, a mid-term (30\%), one final (30\%). The grading will also be flexible: students can, if they choose to, exchange an homework for more scribing duties or an approved research project for the final exam.\\
+
+Writing: The assignments and scribe notes will have to be done using \LaTeX. Grades will take into account both the correctness and the quality of the solutions.\\
+
+Correctness is a prerequisite but clarity is also important: you are responsible for communicating your solution in a simple and understandable way. Sloppy answers will receive fewer or no points even if they are `correct'. Unless otherwise specified, all answers will need to be throughly justified with complete proofs. 
+
+\section{Cource Policy}
+There will be no makeup exams for the course. The mid-term will be held in class.
+
+\section{Required Course Text}
+There is no required course text. Links to appropriate papers or other online material (typically other lecture notes) will be provided for each lecture. 
+\end{document}
