@@ -36,15 +36,38 @@
 <br>
 <div style="float:left; width:800px; margin-left:0em">
 <font size="5">
-My main interests are in complexity theory, learning theory, algorithm design and data mining.
+My main interests are in complexity theory, learning theory, algorithm design.
 More generally, I like probability and combinatorics related things.  </font>
 <br><br>
 <div class="banner">Theory Stuff</div>
 
 <div class="paper">
 <div class="ptitle">
+Pseudorandom Generators for Width-3 Branching Programs</div>
+<div class="pwho">Raghu Meka, Omer Reingold, Avishay Tal</div>
+<div class="pwho"> <a class=plink href="https://arxiv.org/abs/1806.04256">arXiv</a></div>
+</div>
+
+<div class="paper">
+<div class="ptitle">
+	Efficient Algorithms for Outlier-Robust Regression
+</div>
+<div class="pwho"><strong>COLT 2018.</strong> Adam Klivans, Pravesh Kothari, Raghu Meka</div>
+<div class="pwho"> <a class=plink href="https://arxiv.org/abs/1803.03241">arXiv</a></div>
+</div>
+
+<div class="paper">
+<div class="ptitle">
+	Learning One Convolutional Layer with Overlapping Patches
+</div>
+<div class="pwho"><strong>ICML 2018.</strong> Surbhi Goel, Adam Klivans, Raghu Meka</div>
+<div class="pwho"> <a class=plink href="https://arxiv.org/abs/1802.02547">arXiv</a></div>
+</div>
+
+<div class="paper">
+<div class="ptitle">
 Learning Graphical Models using Multiplicative Weights</div>
-<div class="pwho"><strong>To appear in FOCS 2017.</strong> Adam Klivans, Raghu Meka</div>
+<div class="pwho"><strong>FOCS 2017.</strong> Adam Klivans, Raghu Meka</div>
 <a class=abstractl onclick="toggle(&quot;&quot;)">ABSTRACT</a> <a class=plink href="https://arxiv.org/abs/1706.06274">arXiv</a>
 <div class="abstract" style="display:none;">
 </div>
@@ -131,7 +154,7 @@ Communication with Imperfectly Shared Randomness</div>
 <div class="pwho"><strong>ITCS 2015</strong>. Clement Canonne, Venkatesan Guruswami, Raghu Meka, Madhu Sudan.</div>
 <a class=abstractl onclick="toggle(&quot;mompoly&quot;)">ABSTRACT</a>
 <a class=plink href="http://arxiv.org/abs/1411.3603">arXiv</a>  <a class=plink href="http://newsoffice.mit.edu/2014/more-reliable-communication-protocols-1212">MIT-NEWS</a>
-<div class="abstract" style="display:none;"> 
+<div class="abstract" style="display:none;">
 </div>
 </div>
 
@@ -283,11 +306,11 @@ Learning Functions of Halfspaces using Prefix Covers</div>
 DNF Sparsification and Faster Deterministic Counting</div>
 <div class="pwho"><b>CCC 2012</b>. Parikshit Gopalan, Raghu Meka, Omer Reingold</div>
 <div class="pwho">Invited to Computational Complexity <b>Special Issue</b> on CCC 2012</div>
-<a class=abstractl onclick="toggle(&quot;dnfcount&quot;)">ABSTRACT</a> <a class=plink href="http://eccc.hpi-web.de/report/2012/060">ECCC</a> 
+<a class=abstractl onclick="toggle(&quot;dnfcount&quot;)">ABSTRACT</a> <a class=plink href="http://eccc.hpi-web.de/report/2012/060">ECCC</a>
 <div class="abstract" id="dnfcount" style="display:none;">
 We give a faster deterministic algorithm for approximately counting the number of satisfying solutions to a DNF or CNF. Given a DNF (or CNF) f on n variables we give a deterministic n^{\tilde{O}((log log n)^2)} time algorithm that computes an (additive) epsilon approximation to the fraction of satisfying assignments of f for epsilon = 1/poly(log n). The previous best algorithm due to Luby and Velickovic from nearly two decades ago had a run-time of n^{exp(O(sqrt{log log n}))}.<br><br>
 
-A crucial ingredient in our algorithm is a structural result which allows us to sparsify any small-width DNF formula. It says that any width w DNF (irrespective of the number of terms) can be epsilon-approximated by a width w DNF with at most (w log(1/epsilon))^{O(w)} terms. Further, our approximating DNFs have an additional ``sandwiching'' property which is crucial for applications to derandomization. 
+A crucial ingredient in our algorithm is a structural result which allows us to sparsify any small-width DNF formula. It says that any width w DNF (irrespective of the number of terms) can be epsilon-approximated by a width w DNF with at most (w log(1/epsilon))^{O(w)} terms. Further, our approximating DNFs have an additional ``sandwiching'' property which is crucial for applications to derandomization.
 </div>
 </div>
 
@@ -329,7 +352,7 @@ Pseudorandom Generators for Combinatorial Shapes</div>
 <div class="abstract" id="prgcs" style="display:none;">
 We construct pseudorandom generators for {combinatorial shapes}, which substantially generalize combinatorial rectangles, small-bias spaces, 0/1 halfspaces, and 0/1 modular sums. A Boolean function f with domain [m]^n is an (m,n)-combinatorial shape if there exist sets A_1,\ldots,A_n \subseteq [m] such that f is given by a symmetric Boolean function h applied to the  arguments 1(x_1 in A_1), 1(x_2 in A_2),..., 1(x_n in A_n). Our generator uses seed length O(log m + log n + log^2(1/eps)) to get error eps. When m =2, this gives the first generator of seed length O(log n) which fools all weight-based tests, meaning that the distribution of the weight of any subset is eps-close to the appropriate binomial distribution in statistical distance.<br><br>
 
-For our proof we give a simple lemma which allows us to convert closeness in Kolmogorov (cdf) distance to closeness in statistical distance. As a corollary of our technique, we give an alternative proof of a powerful variant of the classical central limit theorem showing convergence in statistical distance, instead of the usual Kolmogorov distance. 
+For our proof we give a simple lemma which allows us to convert closeness in Kolmogorov (cdf) distance to closeness in statistical distance. As a corollary of our technique, we give an alternative proof of a powerful variant of the classical central limit theorem showing convergence in statistical distance, instead of the usual Kolmogorov distance.
 </div>
 </div>
 
@@ -351,7 +374,7 @@ The novelty of our invariance principle is the polylogarithmic dependence on k. 
 
 (2) A pseudorandom generator (PRG) with seed length O((log n)*poly(log k,1/delta)) that delta-fools all polytopes with k faces with respect to the Gaussian distribution. <br><br>
 
-We also obtain PRGs with similar parameters that fool polytopes formed by intersection of regular halfspaces over the hypercube. Using our PRG constructions, we obtain the first deterministic quasi-polynomial time algorithms for approximately counting the number of solutions to a broad class of integer programs, including dense covering problems and contingency tables. 
+We also obtain PRGs with similar parameters that fool polytopes formed by intersection of regular halfspaces over the hypercube. Using our PRG constructions, we obtain the first deterministic quasi-polynomial time algorithms for approximately counting the number of solutions to a broad class of integer programs, including dense covering problems and contingency tables.
 </div>
 </div>
 
@@ -369,7 +392,7 @@ We study the natural question of constructing pseudorandom generators (PRGs) for
 
 Previously, only PRGs with seed length O(log n log^2(1/eps)/eps^2) were known for halfspaces. We also obtain PRGs with similar seed lengths for fooling halfspaces over the n-dimensional unit sphere.<br><br>
 
-The main theme of our constructions and analysis is the use of invariance principles to construct pseudorandom generators. We also introduce the notion of monotone read-once branching programs, which is key to improving the dependence on the error rate eps for halfspaces. These techniques may be of independent interest. 
+The main theme of our constructions and analysis is the use of invariance principles to construct pseudorandom generators. We also introduce the notion of monotone read-once branching programs, which is key to improving the dependence on the error rate eps for halfspaces. These techniques may be of independent interest.
 </div>
 </div>
 
@@ -384,7 +407,7 @@ Bounding the Sensitivity of Polynomial Threshold Functions</div>
 We give the first non-trivial upper bounds on the average sensitivity and noise sensitivity of polynomial threshold functions. More specifically, for a Boolean function f on n variables equal to the sign of a real, multivariate polynomial of total degree d we prove<br>
 1) The average sensitivity of f is at most O(n^{1-1/(4d+3)}) (we also give a simple combinatorial proof of the bound O(n^{1-1/2^d}).<br>
 2) The noise sensitivity of f with noise rate \delta is at most O(\delta^{1/(4d+6)}).<br>
-Previously, only bounds for the linear case were known. Along the way we show new structural theorems about random restrictions of polynomial threshold functions obtained via hypercontractivity. These structural results may be of independent interest as they provide a generic template for transforming problems related to polynomial threshold functions defined on the Boolean hypercube to polynomial threshold functions defined in Gaussian space. 
+Previously, only bounds for the linear case were known. Along the way we show new structural theorems about random restrictions of polynomial threshold functions obtained via hypercontractivity. These structural results may be of independent interest as they provide a generic template for transforming problems related to polynomial threshold functions defined on the Boolean hypercube to polynomial threshold functions defined in Gaussian space.
 </div>
 </div>
 
@@ -393,9 +416,9 @@ Previously, only bounds for the linear case were known. Along the way we show ne
 Small-Bias Spaces for Group Products</div>
 <div class="pwho"><b>Random 2009</b>. Raghu Meka and David Zuckerman</div>
 <a class=abstractl onclick="toggle(&quot;rand09&quot;)">
-      ABSTRACT</a> <a class=plink href="pubs/genepsilon.pdf">PDF</a> 
+      ABSTRACT</a> <a class=plink href="pubs/genepsilon.pdf">PDF</a>
 <div class="abstract" id="rand09" style="display:none;">
-	Small-bias, or $\epsilon$-biased, spaces have found many applications in complexity theory, coding theory, and derandomization. We generalize the notion of small-bias spaces to the setting of group products. Besides being natural, our extension captures some of the difficulties in constructing pseudorandom generators for constant-width branching programs - a longstanding open problem. We provide an efficient deterministic construction of small-bias spaces for solvable groups. Our construction exploits the fact that solvable groups have nontrivial normal subgroups that are abelian and builds on the construction of Azar et al.~\cite{azarmotwani} for abelian groups. For arbitrary finite groups, we give an efficient deterministic construction achieving constant bias. We also construct pseudorandom generators fooling linear functions mod $p$ for primes $p$. 
+	Small-bias, or $\epsilon$-biased, spaces have found many applications in complexity theory, coding theory, and derandomization. We generalize the notion of small-bias spaces to the setting of group products. Besides being natural, our extension captures some of the difficulties in constructing pseudorandom generators for constant-width branching programs - a longstanding open problem. We provide an efficient deterministic construction of small-bias spaces for solvable groups. Our construction exploits the fact that solvable groups have nontrivial normal subgroups that are abelian and builds on the construction of Azar et al.~\cite{azarmotwani} for abelian groups. For arbitrary finite groups, we give an efficient deterministic construction achieving constant bias. We also construct pseudorandom generators fooling linear functions mod $p$ for primes $p$.
 </div>
 </div>
 <br>
@@ -410,7 +433,7 @@ Minimizing the rank of a matrix subject to affine constraints is a fundamental p
  three significant ways:<br><br>
 1) our method (SVP) is significantly simpler to analyze and easier to implement,<br>
 2) we give recovery guarantees under strictly weaker isometry assumptions<br>
-3) we give geometric convergence guarantees for SVP even in presense of noise and, as demonstrated empirically, SVP is significantly faster on real-world and 
+3) we give geometric convergence guarantees for SVP even in presense of noise and, as demonstrated empirically, SVP is significantly faster on real-world and
 synthetic problems.<br><br>
 In addition, we address the practically important problem of low-rank matrix completion (MCP), which can be seen as a special case of ARMP. We empirically demonstrate that our algorithm recovers low-rank incoherent matrices from an almost optimal number of uniformly sampled entries. We make partial progress towards proving exact recovery and provide some intuition for the strong performance of SVP applied to matrix completion by showing a more restricted isometry property. Our algorithm outperforms existing methods, such as those of \cite{RFP07,CR08,CT09,CCS08,KOM09,LB09}, for ARMP and the matrix-completion problem by an order of magnitude and is also significantly more robust to noise.
 </div>
@@ -461,4 +484,3 @@ pageTracker._trackPageview();
 </body>
 
 </html>
-
